@@ -14,4 +14,4 @@ def llm_rephrase(query: str) -> str:
     rewritten_query = StrOutputParser().parse(response)
     
     #return response.choices[0].message.content.strip()
-    return rewritten_query.content.strip()
+    return rewritten_query.content.strip();
